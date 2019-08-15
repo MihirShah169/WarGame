@@ -104,10 +104,11 @@ public class GroupofCardsTest {
         assertEquals(expresult,result);   
         
     }
+    @Test
     public void testDigitGood(){
         
         System.out.println("Testing digit in Name  is Good");
-        String pass = "Prachi Patel";
+        String pass = "Prachi P2tel";
         boolean expresult = true;
         boolean result = GroupofCards.checkDigit(pass);
         assertEquals(expresult,result);
